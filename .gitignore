@@ -1,0 +1,14 @@
+# Zugangsdaten – nie committen (Vorlage: config.example.php)
+config.php
+
+# Hochgeladene Fotos, nur die Schutzdatei gehört ins Repo
+uploads/*
+!uploads/.htaccess
+
+# System- und Editor-Dateien
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
